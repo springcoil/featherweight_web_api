@@ -12,3 +12,5 @@ class Test(unittest.TestCase):
         d = np.array([0])
         response = fthr.jsonify_numpy(d)
 
+if __name__ == '__main__':
+    unittest.main()

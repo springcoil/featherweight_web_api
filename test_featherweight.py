@@ -50,3 +50,6 @@ class Test(unittest.TestCase):
         jsn = json.loads(data)
         assert jsn['success'] == True
         assert jsn['result'] == 22.0
+
+if __name__ == '__main__':
+    unittest.main()
